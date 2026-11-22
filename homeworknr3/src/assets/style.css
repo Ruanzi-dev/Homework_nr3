@@ -2,13 +2,11 @@
   font-family: sans-serif;
   text-decoration: none;
   margin: 0;
-
 }
 
 body {
   margin: 0;
 }
-
 
 /* footer jääb lehe alla */
 #app {
@@ -150,6 +148,18 @@ ul {
 
 .liked {
   fill: red;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.resetLikesButton {
+  margin-bottom: 2rem;
+  width: 4rem;
+  display: block;
 }
 
 /* ---------- Signup page ---------- */
